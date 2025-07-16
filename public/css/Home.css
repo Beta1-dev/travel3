@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+    
+}
+html{
+    font-size: 0.6rem
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+.container{
+     display: flex;
+    justify-content: end;
+    /* border: 2px solid black; */
+    max-width: 1200px;
+    height: 10vh;
+    width: 90%;
+    
+    margin: auto;
+}
+.container .navbar{
+    /* border: 2px solid green; */
+    /* width: 20%; */
+    max-width: 90%;
+    height: 100%;
+    /* margin-right: 5%; */
+   
+    
+}
+.li-items{
+    font-size: 1.6rem;
+    display: flex;
+    margin-left: 3rem;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+   
+}
+.li-items a{
+    text-decoration: none;
+    color:  white;
+}
+.item1{
+    padding: 0 3.5rem;
+    
+}
+
+.main-header{
+    position: relative;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url(/css/iceland.jpg);
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.content{
+    position: absolute;
+    /* border: 2px solid red; */
+    top: 40%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 3rem;
+    
+    color: whitesmoke;
+    text-transform: uppercase;
+   
+    /* font-family  "Helvetica Neue", Helvetica, Arial, sans-serif */
+
+}
+span{
+    display: block;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.4rem;
+}
+.gen{
+    margin-top: 5px;
+    /* font-size: 3rem; */
+
+}
+.btn{
+    position: absolute;
+    top: 92%;
+    left: 41%;
+    /* margin-bottom: 30%; */
+    padding: 1.3rem 1.5rem;
+    border-radius: 2.2rem;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    
+    
+}
+
+.btn:hover{
+background-color: #CAF4FF;
+
+}

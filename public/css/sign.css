@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+    
+}
+html{
+    font-size: 0.6rem
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+
+.main-header{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: end;
+    
+}
+.main-header .navbar{
+    /* border: 2px solid green; */
+    width: 20%;
+    max-width: 90%;
+    margin-right: 25px;
+   
+    /* margin: auto; */
+    
+}
+.li-items{
+    font-size: 1.4rem;
+    display: flex;
+    /* margin-left: 3rem; */
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+   
+}
+.li-items a{
+    text-decoration: none;
+    color:  black;
+}
+.item1{
+    padding: 0 3.5rem;
+    
+}
+
+/* ####################form-styling########################## */
+
+
+.sec-form{
+    /* border: 2px solid red; */
+    margin-top: 5rem;
+    height: 120vh;
+}
+
+.cta{
+ /* border: 2px solid green; */
+ width: 50%;
+ margin-left: 28%;
+ height: 100%;
+
+}
+
+.cta h2{
+    font-size: 2.3rem;
+    font-weight: 500;
+    margin-left: 27rem;
+}
+.fname,.lname,.ph,.em,.cpw{
+    /* border: 1px solid blue; */
+    padding: 1rem 4rem;
+    margin-left: 3.5rem;
+}
+.passkey{
+    /* border: 1px solid purple; */
+    padding: 1rem 4rem;
+    margin-left: 3.5rem;
+}
+.fname label,.lname label{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+}
+.passkey label,.em label,.ph label,.cpw label{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+    
+}
+.fname input{
+    width: 80%;
+}
+.passkey input,.lname input,.em input,.ph input,.cpw input{
+    width: 80%;
+    
+    
+    padding: 0.3rem;
+   
+}
+
+.btn{
+    margin-top:  1.9rem;
+    display: flex;
+    justify-content: center;
+    margin-right: 12%;
+    
+}
+.btn input{
+    outline: none;
+    background-color: #059212;
+    border: none;
+    padding: 1rem 1.7rem;
+    color: white;
+    border-radius: 2rem;
+}
+
+
+

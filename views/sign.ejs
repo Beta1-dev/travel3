@@ -1,0 +1,40 @@
+<%- include('includes/head.ejs') %>
+
+    <link rel="stylesheet" href="/css/sign.css" />
+    <section class="sec-form">
+      <div class="cta">
+        <h2>Sign-Up</h2>
+        <form action="/sign-up" method="post">
+          <div class="fname">
+            <label for="name">First Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="lname">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" required />
+          </div>
+          <div class="em">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="ph">
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" name="phone" required />
+          </div>
+          <div class="passkey">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <div class="cpw">
+            <label for="cpassword">Confirm Password</label>
+            <input type="password" id="cpassword" name="cpassword" required />
+          </div>
+          <div class="btn">
+            <input type="submit" value="Sign-Up" />
+          </div>
+        </form>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>

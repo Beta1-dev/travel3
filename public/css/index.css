@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+    
+}
+html{
+    font-size: 0.6rem
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+.container{
+     display: flex;
+    justify-content: end;
+    /* border: 2px solid red; */
+    max-width: 1200px;
+    height: 10vh;
+    width: 90%;
+    
+    margin: auto;
+}
+
+.container .navbar{
+    /* border: 2px solid green; */
+    width: 20%;
+    max-width: 90%;
+    height: 100%;
+   
+    
+}
+.li-items{
+    /* border: 2px solid red; */
+    font-size: 1.4rem;
+    display: flex;
+    /* margin-left: 3rem; */
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+   
+}
+.li-items a{
+    text-decoration: none;
+    color:  black;
+}
+.item1{
+    padding: 0 3.5rem;
+    
+}
+
+/* ####################form-styling########################## */
+
+
+.sec-form{
+    /* border: 2px solid red; */
+    margin-top: 5rem;
+    height: 70vh;
+}
+
+.cta{
+ /* border: 2px solid green; */
+ width: 50%;
+ margin: auto;
+ height: 100%;
+
+}
+
+.cta h2{
+    font-size: 2.6rem;
+    font-weight: 500;
+    margin-left: 28rem;
+}
+.user{
+    /* border: 1px solid blue; */
+    padding: 1rem 4rem;
+}
+.passkey{
+    /* border: 1px solid purple; */
+    padding: 1rem 4rem;
+}
+.user label{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+}
+.passkey label{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+}
+.user input{
+    width: 80%;
+}
+.passkey input{
+    width: 80%;
+}
+
+.btn{
+    margin-top:  1.9rem;
+    display: flex;
+    justify-content: center;
+    
+}
+.btn input{
+    outline: none;
+    background-color: #059212;
+    border: none;
+    padding: 1rem 1.7rem;
+    color: white;
+    border-radius: 2rem;
+}
+.passkey,.user{
+    margin-left: 16%;
+}
+
+
+

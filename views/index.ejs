@@ -1,0 +1,26 @@
+<%- include('includes/head.ejs') -%>
+
+     
+
+    <section class="sec-form">
+      <div class="cta">
+        <h2>Welcome User</h2>
+        <form action="/login" method="post">
+          <div class="user">
+            <label for="username">Username</label>
+            <input type="text" name="username" required />
+          </div>
+
+          <div class="passkey">
+            <label for="password">Password</label>
+            <input type="password" name="password" required />
+          </div>
+          <div class="btn">
+            <input type="submit" value="Login" />
+          </div>
+        </form>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>

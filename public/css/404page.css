@@ -1,0 +1,26 @@
+
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+    
+}
+html{
+    font-size: 0.6rem
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+.main-img{
+    height: 100vh;
+   
+    /* border: 2px solid red; */
+    background-image: url(/css/404page.jpg);
+    background-position: center;
+    background-size: 100vh;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}

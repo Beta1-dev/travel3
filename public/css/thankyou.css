@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+    
+}
+html{
+    font-size: 0.6rem
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+
+
+.cta2{
+    height: 100vh;
+    /* border: 2px solid red; */
+    background-image: url("./thankyou.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
